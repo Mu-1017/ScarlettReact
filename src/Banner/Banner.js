@@ -1,7 +1,7 @@
 import React from 'react';
-import './Profile.css';
+import './Banner.css';
 
-function Profile() {
+function Banner() {
   return (
     <div className="banner px-0">
       <div className="profile col-md-12 px-0">
@@ -29,4 +29,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Banner;
