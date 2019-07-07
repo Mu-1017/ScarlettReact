@@ -1,32 +1,11 @@
-.profile{
-    position: absolute;
-    top: 0;
-}
-
-.profile-image
-{
-  width: 100%;
-  z-index: 0;
-  position: relative;
-}
-
 .title p{
     font-family: 'Alex Brush', cursive;
     font-weight: 500;
 }
 
-.resume{
-    width: 70px;
-}
-
-.icon{
-    width: 30px;
-}
-
-
 /* Tablet Portrait and Landscape */
-@media only screen 
-  and (min-width: 768px) 
+/* @media only screen 
+  and (min-width: 794px) 
   and (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     #banner-div{
@@ -42,10 +21,10 @@
         font-size: 40px;
         top: 130px;
     }
-}
+} */
 
 /* Desktop */
-@media only screen and (min-width: 769px) {   
+@media only screen and (min-width: 913px) {   
     #banner-div{
         height: 600px;
         min-width: 640px;
@@ -63,16 +42,15 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 767px) {   
+@media screen and (max-width: 912px) {   
     #banner-div{
         height: 700px;
         position: relative;
-        background: no-repeat center right fixed url(profile2-small.jpg);
+        background: no-repeat center left fixed url(profile2-small.jpg);
         background-size: cover;
     }
     .title{
         position: absolute;
-        height: auto;
         top: 200px;
         color: cornsilk;
         font-size: 33px;
