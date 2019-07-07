@@ -78,9 +78,13 @@
     .title{
         position: absolute;
         height: auto;
-        top: 50px;
+        top: 200px;
         color: cornsilk;
         font-size: 33px;
         font-weight: bold;
+        background: rgba(255, 255, 255, 0.3);
+        height: 90px;
+        display: flex;
+        align-items: center;
     }
 } 
