@@ -1,0 +1,86 @@
+.profile{
+    position: absolute;
+    top: 0;
+}
+
+.profile-image
+{
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+
+.banner{
+    height: auto;
+    min-width: 640px;
+}
+
+.title p{
+    font-family: 'Alex Brush', cursive;
+    font-weight: 500;
+}
+
+.resume{
+    width: 70px;
+}
+
+.icon{
+    width: 30px;
+}
+
+
+/* Tablet Portrait and Landscape */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #profile-big{
+        display: inherit;
+    } 
+    #profile-small{
+        display: none;
+    }
+    .title{
+        position: absolute;
+        height: auto;
+        color: lightsalmon;
+        font-size: 40px;
+        top: 130px;
+    }
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 769px) {   
+    #profile-big{
+        display: inherit;
+    } 
+    #profile-small{
+        display: none;
+    } 
+    .title{
+        position: absolute;
+        height: auto;
+        top: 250px;
+        color: lightsalmon;
+        font-size: 40px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {   
+    #profile-big{
+    	display: none;
+    } 
+    #profile-small{
+    	display: inherit;
+    }
+    .title{
+        position: absolute;
+        height: auto;
+        top: 50px;
+        color: cornsilk;
+        font-size: 33px;
+        font-weight: bold;
+    }
+} 
