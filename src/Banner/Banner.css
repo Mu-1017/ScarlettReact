@@ -29,7 +29,7 @@
 /* Desktop */
 @media only screen and (min-width: 913px) {   
     #banner-div{
-        height: 600px;
+        min-height: 1024px;
         min-width: 640px;
         position: relative;
         background: no-repeat center right fixed url(profile2-big.jpg);
@@ -38,9 +38,9 @@
     .title{
         position: absolute;
         height: auto;
-        top: 30%;
+        top: 40%;
         color: lightsalmon;
-        font-size: 40px;
+        font-size: 60px;
     }
 }
 
