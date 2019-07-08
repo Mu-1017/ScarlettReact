@@ -1,0 +1,22 @@
+#header-div{
+    position: relative;
+    background:  rgb(255, 255, 255, 0.8);
+    height: 200px;
+}
+
+.header-content{
+    width: 100%;
+}
+h1{
+    /* font-family: 'Alex Brush', cursive; */
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(209, 123, 73);
+}
+
+hr{
+    border-top:2px solid;
+    border-color:#FBC600;
+    width: 50%;
+}

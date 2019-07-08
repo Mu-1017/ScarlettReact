@@ -2,7 +2,8 @@
     margin: 0;
 }
 .title p{
-    font-family: 'Alex Brush', cursive;
+    /* font-family: 'Alex Brush', cursive; */
+    font-family: 'Satisfy', cursive;
     font-weight: 500;
 }
 
@@ -39,7 +40,7 @@
         position: absolute;
         height: auto;
         top: 40%;
-        color: lightsalmon;
+        color:  rgb(209, 123, 73);
         font-size: 60px;
     }
 }
