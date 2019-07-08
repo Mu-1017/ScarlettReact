@@ -51,8 +51,10 @@
         min-height: 667px;
         position: relative;
         background: no-repeat center left fixed url(profile2-small.jpg);
-        background-size: cover;
+        background-size: cover; 
+        background-attachment: scroll;
     }
+
     .title{
         position: absolute;
         top: 40%;
