@@ -1,36 +1,17 @@
 #banner-div{
     margin: 0;
 }
-.title p{
-    /* font-family: 'Alex Brush', cursive; */
+.title h2{
     font-family: 'Satisfy', cursive;
-    font-weight: 500;
+    font-weight: 300;
 }
 
-/* Tablet Portrait and Landscape */
-/* @media only screen 
-  and (min-width: 794px) 
-  and (max-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    #banner-div{
-        height: 400px;
-        position: relative;
-        background: no-repeat center right fixed url(profile2-big.jpg);
-        background-size: cover;
-    }
-    .title{
-        position: absolute;
-        height: auto;
-        color: lightsalmon;
-        font-size: 40px;
-        top: 130px;
-    }
-} */
-
 /* Desktop */
-@media only screen and (min-width: 913px) {   
+@media only screen 
+and (min-width: 913px)
+{   
     #banner-div{
-        min-height: 1024px;
+        min-height: 800px;
         min-width: 640px;
         position: relative;
         background: no-repeat center right fixed url(profile2-big.jpg);
@@ -39,9 +20,8 @@
     .title{
         position: absolute;
         height: auto;
-        top: 40%;
+        top: 35%;
         color:  rgb(209, 123, 73);
-        font-size: 60px;
     }
 }
 
@@ -59,7 +39,6 @@
         position: absolute;
         top: 27%;
         color: cornsilk;
-        font-size: 33px;
         font-weight: bold;
         background: rgba(255, 255, 255, 0.3);
         height: 90px;
