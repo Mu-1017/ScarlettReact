@@ -47,14 +47,14 @@
 /* Mobile */
 @media screen and (max-width: 912px) {   
     #banner-div{
-        height: 700px;
+        min-height: 667px;
         position: relative;
         background: no-repeat center left fixed url(profile2-small.jpg);
         background-size: cover;
     }
     .title{
         position: absolute;
-        top: 200px;
+        top: 40%;
         color: cornsilk;
         font-size: 33px;
         font-weight: bold;

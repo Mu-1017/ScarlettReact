@@ -1,0 +1,5 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/fb3607d0-78a6-460d-9f16-d0d76074ab87/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ScarlettSpaceship",
+    "appService.deploySubpath": ""
+}
