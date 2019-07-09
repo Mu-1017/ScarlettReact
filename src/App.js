@@ -3,6 +3,7 @@ import './App.css';
 import SectionHeader from './SectionHeader/SectionHeader'
 import Banner from './Banner/Banner'
 import Profile from './Profile/Profile'
+import Professional from './Professional/Professional'
 import PlaceHolder from './PlaceHolder'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Profile />
 
       <SectionHeader name="Professional" desc="My knowledge level in software"/>
-      <PlaceHolder/>
+      <Professional/>
 
       <SectionHeader name="Experience" desc="Here's what I've done so far"/>
       <PlaceHolder/>
