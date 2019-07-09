@@ -4,8 +4,9 @@
 }
 
 .resume{
-    width: 80px;
+    width: 100%;
 }
 .icon{
     width: 35px;
+    margin: 10px;
 }

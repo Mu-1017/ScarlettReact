@@ -3,6 +3,7 @@ import './App.css';
 import SectionHeader from './SectionHeader/SectionHeader'
 import Banner from './Banner/Banner'
 import Profile from './Profile/Profile'
+import PlaceHolder from './PlaceHolder'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Profile />
 
       <SectionHeader name="Experience" desc="Here's what I've done so far"/>
-      <Profile />
+      <PlaceHolder/>
     </div>
   );
 }
