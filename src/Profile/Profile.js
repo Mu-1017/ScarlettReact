@@ -3,7 +3,7 @@ import './Profile.css';
 
 function Profile() {
   return (
-    <div id="profile-div" className="profile px-0">Here is test
+    <div id="profile-div" className="profile px-0">Under Construction
       <div className="resume ">
         <div className="icon" title="Resume">
             <a className="icon" href={process.env.PUBLIC_URL + '/download/profile-big.jpg'} download>

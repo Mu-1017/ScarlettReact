@@ -7,6 +7,7 @@
 .header-content{
     width: 100%;
 }
+
 h1{
     /* font-family: 'Alex Brush', cursive; */
     font-family: 'Satisfy', cursive;
@@ -21,7 +22,7 @@ hr{
     width: 50%;
 }
 
-p{
+span{
     font-family: 'Cairo', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }

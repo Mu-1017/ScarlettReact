@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Banner />
 
-      <SectionHeader name="Profile" desc="I am a software developer"/>
+      <SectionHeader name="Hi there." desc="I am a software developer"/>
       <Profile />
 
       <SectionHeader name="Experience" desc="Here's what I've done so far"/>

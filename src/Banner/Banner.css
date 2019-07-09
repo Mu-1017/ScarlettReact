@@ -4,6 +4,7 @@
 .title h2{
     font-family: 'Satisfy', cursive;
     font-weight: 300;
+    font-size: 2.5rem;
 }
 
 /* Desktop */
@@ -22,6 +23,7 @@ and (min-width: 913px)
         height: auto;
         top: 35%;
         color:  rgb(209, 123, 73);
+
     }
 }
 
