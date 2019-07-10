@@ -1,12 +1,11 @@
 #profile-div{
-    height: 500px;
+    height: 600px;
     position: relative;
 }
 
-.resume{
-    width: 100%;
-}
 .icon{
     width: 35px;
     margin: 10px;
 }
+
+/* font-family: 'Ubuntu', sans-serif; */

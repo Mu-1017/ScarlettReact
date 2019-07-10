@@ -11,13 +11,13 @@ function App() {
     <div className="App">
       <Banner />
 
-      <SectionHeader name="A little about me" desc="I am a software developer"/>
+      <SectionHeader name="A little about me" desc="CAUTION: You might get addicted to me."/>
       <Profile />
 
-      <SectionHeader name="Professional" desc="My knowledge level in software"/>
+      <SectionHeader name="Professional" desc="My knowledge level in software."/>
       <Professional/>
 
-      <SectionHeader name="Experience" desc="Here's what I've done so far"/>
+      <SectionHeader name="Experience" desc="Here's what I've done so far..."/>
       <PlaceHolder/>
     </div>
   );
