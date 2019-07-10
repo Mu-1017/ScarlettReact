@@ -2,16 +2,45 @@
 import React from 'react';
 import './Professional.css';
 
-import ProgressBar from 'react-bootstrap/ProgressBar'
-
+import 'react-circular-progressbar/dist/styles.css';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 
 function Professional() {
+    var style = buildStyles({
+        textSize: '18px',
+        pathColor: `rgba(255, 255, 255)`,
+        textColor: 'white',
+        //backgroundColor: '#f9caa7',
+        backgroundColor:'#f1c27d',
+        trailColor: "transparent"
+      });
   return (
-    <div className="col-md-9">
-        <ProgressBar label="C#" variant="success" now={80} />
-        <ProgressBar label="Wpf" variant="success" now={70} />
-        <ProgressBar label="React" variant="warning" now={60} />
-        <ProgressBar label="Html & Css" variant="danger" now={70} />
+    <div className="container">
+        <div className="d-flex col justify-content-center">
+            <CircularProgressbar className="progress" value={80} background="true" backgroundPadding="5" 
+            text="C#" strokeWidth={6}
+            styles={style}/>
+              <CircularProgressbar className="progress" value={70} background="true" backgroundPadding="5" 
+            text="WPF" strokeWidth={6}
+            styles={style}/>
+            <CircularProgressbar className="progress" value={80} background="true" backgroundPadding="5" 
+            text=".Net" strokeWidth={6}
+            styles={style}/>
+        </div>
+        <div className="d-flex col justify-content-center">
+            <CircularProgressbar className="progress" value={60} background="true" backgroundPadding="5" 
+            text="html" strokeWidth={6}
+            styles={style}/>
+            <CircularProgressbar className="progress" value={60} background="true" backgroundPadding="5" 
+            text="css" strokeWidth={6}
+            styles={style}/>
+            <CircularProgressbar className="progress" value={50} background="true" backgroundPadding="5" 
+            text="Javascript" strokeWidth={6}
+            styles={style}/>
+              <CircularProgressbar className="progress" value={50} background="true" backgroundPadding="5" 
+            text="React" strokeWidth={6}
+            styles={style}/>
+        </div>
     </div>
   );
 }
