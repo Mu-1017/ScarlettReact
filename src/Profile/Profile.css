@@ -1,6 +1,6 @@
 #profile-div{
-    height: 650px;
     position: relative;
+    height: 500px;;
 }
 
 .icon{
@@ -8,4 +8,17 @@
     margin: 10px;
 }
 
+.profile-image{
+    height: 500px;
+}
+
+img{
+    opacity: 50%;;
+    height: 100%;
+    margin-top: 30%;
+}
+
+.tagClound{
+    border: 2px sold, red;
+}
 /* font-family: 'Ubuntu', sans-serif; */
