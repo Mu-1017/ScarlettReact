@@ -5,8 +5,8 @@ import TagCloud from 'react-tag-cloud';
 import randomColor from 'randomcolor';
 
 function Profile() {
-  var tooptip = "Clcik to download résumé";
-  return (
+  // var tooptip = "Clcik to download résumé";
+   return (
     <div id="profile-div" className="profile container d-flex justify-item-between">
       <div className="profile-image col d-none d-sm-block">
         <img src={process.env.PUBLIC_URL + '/photo/profile2.jpg'} class="img-fluid img-thumbnail" alt="..."/>
@@ -23,11 +23,12 @@ function Profile() {
               hue: 'blue'
             }),
             padding: 6,
+            flex: 1,
             width: '100%',
             height: '450px'
           }}>
           <div style={{fontSize: 40, fontWeight: 'bold'}}>Singapore</div>
-          <div>Software developer</div>
+          <div style={{color: "#be9b7b"}}>Software developer</div>
           <div style={{color: 'hotpink'}}>Self-taught</div>
           <div>web designer/developer</div>
           <div style={{color: '#fe8a71'}}>Energetic</div>
@@ -36,7 +37,7 @@ function Profile() {
           <div style={{color:'#fed766'}}>Creative</div>
           <div style={{color: 'orange'}}>Sense of Humor</div>
           <div style={{fontSize: 20, color:'#6f4e37'}}>Coffee addict</div>
-          <div style={{fontSize: 20, opacity:'50'}}>Detective books</div>
+          <div style={{color:"#7f8e9e", fontSize: 20, opacity:'50'}}>Detective books</div>
         </TagCloud>
       </div>
       {/* <div className="resume d-flex justify-content-center">
