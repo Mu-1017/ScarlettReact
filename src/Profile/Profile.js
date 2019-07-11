@@ -10,13 +10,13 @@ function Profile() {
       </div>
       <div className="resume d-flex justify-content-center">
         <div className="icon" title={tooptip}>
-            <a className="icon" href={process.env.PUBLIC_URL + '/download/Scarlett_Mu_Tong_Resume.docx'} download>
-              <img src={process.env.PUBLIC_URL + '/icon/doc.svg'} alt="doc"></img>
+            <a className="icon" href={process.env.PUBLIC_URL + '/Scarlett_Mu_Tong_Resume.docx'} target='_blank' rel="noopener noreferrer">
+              <img src={process.env.PUBLIC_URL + '/icon/doc.svg'} alt="Mu Tong Resume doc"></img>
             </a>
         </div>
         <div className="icon" title={tooptip}>
-            <a className="icon" href={process.env.PUBLIC_URL + '/download/Scarlett_Mu_Tong_Resume.pdf'} download>
-              <img src={process.env.PUBLIC_URL + '/icon/pdf.svg'} alt="pdf"></img>
+            <a className="icon" href={process.env.PUBLIC_URL + '/Scarlett_Mu_Tong_Resume.pdf'} target='_blank' rel="noopener noreferrer">
+              <img src={process.env.PUBLIC_URL + '/icon/pdf.svg'} alt="Mu Tong Resume pdf"></img>
             </a>
         </div>
       </div>
