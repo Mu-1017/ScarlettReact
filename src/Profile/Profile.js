@@ -1,45 +1,31 @@
 import React from 'react';
 import './Profile.css';
 
-import TagCloud from 'react-tag-cloud';
-import randomColor from 'randomcolor';
-
 function Profile() {
   // var tooptip = "Clcik to download résumé";
    return (
-    <div id="profile-div" className="profile container d-flex justify-item-between">
-      <div className="profile-image col d-none d-sm-block">
-        <img src={process.env.PUBLIC_URL + '/photo/profile2.jpg'} class="img-fluid img-thumbnail" alt="..."/>
+    <div id="profile-div" className="profile container-fluid d-flex justify-item-between">
+
+      <div className="image-div col-6 d-none d-sm-block">
+      <h2>What is important!</h2>
+        <p>I lived in China</p>
+        <p>I moved to Singapore</p>
+        <p>I love cheese corn dog</p>
+        <p>I watch japanese Oogui eating show</p>
+        <p>AKA Mukbang in Korean</p>
+        <p>I am a developer</p>
+        <p>I code</p>
       </div>
-      <div className="tagClound col align-self-center">
-        <TagCloud 
-          style={{
-            fontFamily: 'sans-serif',
-            fontSize: 24,
-            fontWeight: 'bold',
-            fontStyle: 'italic',
-            color: () => randomColor({
-              luminosity: 'light',
-              hue: 'blue'
-            }),
-            padding: 6,
-            flex: 1,
-            width: '100%',
-            height: '450px'
-          }}>
-          <div style={{fontSize: 40, fontWeight: 'bold'}}>Singapore</div>
-          <div style={{color: "#be9b7b"}}>Software developer</div>
-          <div style={{color: 'hotpink'}}>Self-taught</div>
-          <div>web designer/developer</div>
-          <div style={{color: '#fe8a71'}}>Energetic</div>
-          <div>UI/UX Design</div>
-          <div>Dog person</div>
-          <div style={{color:'#fed766'}}>Creative</div>
-          <div style={{color: 'orange'}}>Sense of Humor</div>
-          <div style={{fontSize: 20, color:'#6f4e37'}}>Coffee addict</div>
-          <div style={{color:"#7f8e9e", fontSize: 20, opacity:'50'}}>Detective books</div>
-        </TagCloud>
-      </div>
+      <div className="description col-6 align-self-right">
+      <h2>What is not</h2>
+        <p>I lived in China</p>
+        <p>I moved to Singapore</p>
+        <p>I love cheese corn dog</p>
+        <p>I watch japanese Oogui eating show</p>
+        <p>AKA Mukbang in Korean</p>
+        <p>I am a developer</p>
+        <p>I code</p>
+        </div>
       {/* <div className="resume d-flex justify-content-center">
         <div className="icon" title={tooptip}>
             <a className="icon" href={process.env.PUBLIC_URL + '/Scarlett_Mu_Tong_Resume.docx'} target='_blank' rel="noopener noreferrer">

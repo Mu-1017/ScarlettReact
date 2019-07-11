@@ -1,24 +1,10 @@
-#profile-div{
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.image-div{
+    min-height:600px;
     position: relative;
-    height: 500px;;
+    background: no-repeat center right fixed url(building-colors-daylight.jpg);
+    background-size: cover;
 }
-
-.icon{
-    width: 35px;
-    margin: 10px;
-}
-
-.profile-image{
-    height: 500px;
-}
-
-img{
-    opacity: 50%;;
-    height: 100%;
-    margin-top: 30%;
-}
-
-.tagClound{
-    border: 2px sold, red;
-}
-/* font-family: 'Ubuntu', sans-serif; */
