@@ -4,12 +4,12 @@ import './Profile.css';
 function Profile() {
    return (
     <div id="profile-div" className="container-fluid">
-    <div class="row">
-    <div class="div-1 col-5">
-    <img id="cat" className="img-thumbnail" alt="mimi" src={process.env.PUBLIC_URL + 'photo/cat.JPG'}/>
+    <div class="main-row row">
+    <div id="image-div" class="col-6 d-none d-md-block">
+      <img id="cat" className="img-round img-thumbnail" alt="mimi" src={process.env.PUBLIC_URL + 'photo/cat.JPG'}/>
     </div>
-    <div className="description col-7">
-        <p>I liveadcz caaczxccccccccccccccccccccccccccccccccccccccccccccccccccccccccccZCvvzxcd in China</p>
+    <div className="description  col-sm-12 col-md-6 col-lg-6">
+        <p>I liveadcz caaczxcccccccccccccccccccin China</p>
         <p>I moved to Singapore</p>
         <p>I love cheese corn dog</p>
         <p>I watch japanese Oogui eating show</p>
