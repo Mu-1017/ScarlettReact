@@ -7,7 +7,7 @@
 }
 
 #image-div{
-    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
 }
 
 #cat{
@@ -17,6 +17,13 @@
     border-radius: 50%;
 }
 
+.description{
+    top: 20%;
+    padding: 50px;
+}
 p{
     font-family: 'Ubuntu', sans-serif;
+    word-wrap: normal;
+    text-align: left;
+    text-indent: 2em;
 }

@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Banner />
 
-      <SectionHeader name="A little about me" desc="CAUTION: You might get addicted to me."/>
+      <SectionHeader name="A little about me" desc="Live simply. Dream big. Be grateful. Give love. Laugh lots."/>
       <Profile />
 
       <SectionHeader name="Professional" desc="My knowledge level in software."/>
