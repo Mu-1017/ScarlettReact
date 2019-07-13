@@ -1,10 +1,15 @@
+#profile-div{
+    height:700px;
+    padding: 30px;
+}
 p{
     font-family: 'Ubuntu', sans-serif;
 }
-
-.image-div{
-    min-height:600px;
+#cat{
+    height: 200px;
     position: relative;
-    background: no-repeat center right fixed url(building-colors-daylight.jpg);
-    background-size: cover;
+    top: 40%;
+}
+.div-1{
+    /* background: orange; */
 }
