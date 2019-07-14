@@ -7,7 +7,8 @@
 }
 
 #image-div{
-    background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+    background-image: linear-gradient(to left, #ffcea0 0%, #ffb4af 100%);
+    /* background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%); */
 }
 
 #cat{

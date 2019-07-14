@@ -1,0 +1,12 @@
+#contact-div{
+    height: 200px;
+    padding-top: 50px;
+}
+.icon{
+    height: 30px;
+    margin: 25px;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+  }
