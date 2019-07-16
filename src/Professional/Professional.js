@@ -21,19 +21,27 @@ function Professional() {
           <p>C++</p>
           <ResetRating initialRating = {3}/>
           </div>
-        </div>
-
-        <div className="skill-col col-sm-12 col-md-6">
           <div className="d-flex justify-content-between">
           <p>Asp.Net</p>
           <ResetRating initialRating = {3}/>
           </div>
+        </div>
+
+        <div className="skill-col col-sm-12 col-md-6">
           <div className="d-flex justify-content-between">
           <p>React</p>
           <ResetRating initialRating = {3}/>
           </div>
           <div className="d-flex justify-content-between">
-          <p>HTML & CSS</p>
+          <p>Bootstrap</p>
+          <ResetRating initialRating = {3}/>
+          </div>
+          <div className="d-flex justify-content-between">
+          <p>HTML</p>
+          <ResetRating initialRating = {4}/>
+          </div>
+          <div className="d-flex justify-content-between">
+          <p>CSS</p>
           <ResetRating initialRating = {4}/>
           </div>
         </div>
