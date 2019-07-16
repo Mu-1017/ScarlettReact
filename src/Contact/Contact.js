@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 
 function Contact() {
-    var tooptip = "Clcik to download résumé";
+    // var tooptip = "Clcik to download résumé";
     return (
         <div id="contact-div" className="container">
             <div className="d-flex justify-content-center">

@@ -1,47 +1,43 @@
 
 import React from 'react';
 
-import 'react-circular-progressbar/dist/styles.css';
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
-
+import ResetRating from './StarRating';
 import './Professional.css';
 
 function Professional() {
-    var style = buildStyles({
-        textSize: '18px',
-        pathColor: `#fff`,
-        textColor: '#fff',
-        backgroundColor:'#f1c27d',
-        trailColor: "transparent"
-      });
   return (
-    <div className="container-fluid">
-        <div className="d-flex col justify-content-center">
-            <CircularProgressbar className="progress" value={80} background="true" backgroundPadding="5" 
-            text="C#" strokeWidth={6}
-            styles={style}/>
-              <CircularProgressbar className="progress" value={70} background="true" backgroundPadding="5" 
-            text="WPF" strokeWidth={6}
-            styles={style}/>
-            <CircularProgressbar className="progress" value={80} background="true" backgroundPadding="5" 
-            text=".Net" strokeWidth={6}
-            styles={style}/>
+    <div className="main-div row">
+      <div className="skill-col col-sm-12 col-md-6">
+        <div className="d-flex justify-content-between">
+        <p>c#</p>
+        <ResetRating initialRating = {5}/>
         </div>
-        <div className="d-flex col justify-content-center">
-            <CircularProgressbar className="progress" value={60} background="true" backgroundPadding="5" 
-            text="html" strokeWidth={6}
-            styles={style}/>
-            <CircularProgressbar className="progress" value={60} background="true" backgroundPadding="5" 
-            text="css" strokeWidth={6}
-            styles={style}/>
-            <CircularProgressbar className="progress" value={50} background="true" backgroundPadding="5" 
-            text="Javascript" strokeWidth={6}
-            styles={style}/>
-              <CircularProgressbar className="progress" value={50} background="true" backgroundPadding="5" 
-            text="React" strokeWidth={6}
-            styles={style}/>
+        <div className="d-flex justify-content-between">
+        <p>WPF</p>
+        <ResetRating initialRating = {4}/>
         </div>
+        <div className="d-flex justify-content-between">
+        <p>C++</p>
+        <ResetRating initialRating = {3}/>
+        </div>
+      </div>
+
+      <div className="skill-col col-sm-12 col-md-6">
+        <div className="d-flex justify-content-between">
+        <p>Asp.Net</p>
+        <ResetRating initialRating = {3}/>
+        </div>
+        <div className="d-flex justify-content-between">
+        <p>React</p>
+        <ResetRating initialRating = {3}/>
+        </div>
+        <div className="d-flex justify-content-between">
+        <p>HTML & CSS</p>
+        <ResetRating initialRating = {4}/>
+        </div>
+      </div>
     </div>
+    
   );
 }
 

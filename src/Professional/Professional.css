@@ -1,6 +1,15 @@
-.CircularProgressbar{
-    margin: 10px;
-    width: 150px;
-    height: 150px;
-    background: 0%;
+.main-div{
+    padding: 20px;
+}
+
+.skill-col{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    word-wrap: normal;
+    text-align: left;
+    font-size: 1.2rem;
 }

@@ -3,7 +3,7 @@ import './App.css';
 import SectionHeader from './SectionHeader/SectionHeader'
 import Banner from './Banner/Banner'
 import Profile from './Profile/Profile'
-import ProfessionalSlider from './Professional/ProfessionalSlider'
+import Professional from './Professional/Professional'
 import Experience from './Experience/Experience'
 import Contact from "./Contact/Contact"
 
@@ -16,7 +16,7 @@ function App() {
       <Profile />
 
       <SectionHeader name="Professional" desc="My knowledge level in software."/>
-      <ProfessionalSlider/>
+      <Professional/>
 
       <SectionHeader name="Experience" desc="Here's what I've done so far..."/>
       <Experience/>
