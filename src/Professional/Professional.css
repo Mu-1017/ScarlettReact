@@ -2,14 +2,24 @@
     padding: 20px;
 }
 
+.row{
+    padding-top: 20px;
+}
+
 .skill-col{
-    padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+hr{
+    border-top:1px solid;
+    border-color:rgba(167, 161, 139, 0.281);
+    width: 70%;
+    padding-top: 10px;
+}
+
 p{
     font-family: 'Ubuntu', sans-serif;
     word-wrap: normal;
     text-align: left;
-    font-size: 1.2rem;
 }
