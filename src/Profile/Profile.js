@@ -10,7 +10,7 @@ function Profile() {
     </div>
     <div className="description  col-sm-12 col-md-6 col-lg-6">
         <p>
-          I am Scarlettm, a self-taught developer living in Singapore.
+          I am Scarlett, a self-taught developer living in Singapore.
         </p>
         <p>
           I have over 8 years experience in software design and development.
