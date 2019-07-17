@@ -4,31 +4,52 @@ import './Experience.css';
 const careers = [
     {
         company: "Sivantos Pte. Ltd.",
-        duration: "Jun 2018 - Current",
+        duration: "July 2018 - Current",
         title: "Engineer II",
-        desc: "kjsafhskjglou akhgkj dfkj giokfg slfg kgjlag o",
+        desc: "To be updated....",
         location: "Singapore"
     },
     {
-        company: "321",
-        duration: "222",
-        title: "saf",
-        desc: "kjsafhskjglou akhgkj dfkj giokfg slfg kgjlag o",
+        company: "CyberOptics Pte. Ltd",
+        duration: "June 2017 - July 2018",
+        title: "Software Engineer",
+        desc: "To be updated....",
         location: "Singapore"
+    },
+    {
+        company: "ST Electronics",
+        duration: "Jan 2013 - June 2017",
+        title: "Senior/Software Engineer",
+        desc: "To be updated....",
+        location: "Singapore"
+    },
+    {
+        company: "ST Electronics",
+        duration: "Feb 2012 - May 2012",
+        title: "Intern(Software Testing)",
+        desc: "To be updated....",
+        location: "Singapore"
+    },
+    {
+        company: "Konka Group Co,.Ltd",
+        duration: "Feb 2012 - May 2012",
+        title: "Intern(Software Developer)",
+        desc: "To be updated....",
+        location: "Shenzhen, China"
     }];
 
     const educations = [
         {
             company: "Nanyang Technological University",
-            duration: "123",
+            duration: "2011 - 2012",
             title: "MSc in Digital Media Technology",
             location: "Singapore"
         },
         {
             company: "Chang'an University",
-            duration: "222",
-            title: "MSc in Digital Media Technology",
-            location: "China"
+            duration: "2007 - 2011",
+            title: "B.Eng in Industrial Automation",
+            location: "Xi'an, China"
         }];
 
     const HistoryRow = (props)=>

@@ -7,15 +7,19 @@ p{
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(209, 123, 73);
 }
 
 h4{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .map-icon{
     margin-right: 5px;
+    color: rgb(84, 141, 77);
 }
 
 hr{
