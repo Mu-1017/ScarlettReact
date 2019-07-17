@@ -3,18 +3,18 @@ import './Experience.css';
 
 const careers = [
     {
-        company: "122",
-        duration: "123",
-        title: "test",
+        company: "Sivantos Pte. Ltd.",
+        duration: "Jun 2018 - Current",
+        title: "Engineer II",
         desc: "kjsafhskjglou akhgkj dfkj giokfg slfg kgjlag o",
-        location: "China"
+        location: "Singapore"
     },
     {
         company: "321",
         duration: "222",
         title: "saf",
         desc: "kjsafhskjglou akhgkj dfkj giokfg slfg kgjlag o",
-        location: "China"
+        location: "Singapore"
     }];
 
     const educations = [
@@ -32,7 +32,6 @@ const careers = [
         }];
 
     const HistoryRow = (props)=>
-        <div className="container-fluid">
         <div className="row d-flex justify-content-center">
             <div className="col-sm-4 col-md-6 text-left">
                 <h3>{props.company}</h3>
@@ -44,7 +43,6 @@ const careers = [
                 <p><i className="map-icon fas fa-map-marker-alt fa-lg"></i>{props.location}</p>
             </div>
         </div>
-    </div>
 
 
 function Experience() {
