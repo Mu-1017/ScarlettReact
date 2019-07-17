@@ -1,18 +1,27 @@
 #main-div{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+
     font-family: 'Ubuntu', sans-serif;
 }
 
 p{
     text-indent: 0px;
 }
+
+h3{
+    font-size: 1.5rem;
+}
+
 h4{
     font-size: 1.2rem;
 }
-#linebreak{
-    border-top: 1px solid #8c8b8bc2;
-	border-bottom: 1px solid #fff;
+
+.map-icon{
+    margin-right: 5px;
 }
+
+hr{
+    border-top:1px solid;
+    border-color:rgba(167, 161, 139, 0.281);
+    width: 70%;
+    padding-top: 10px;
+  }

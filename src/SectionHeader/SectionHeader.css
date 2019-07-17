@@ -16,10 +16,10 @@ h1{
     color: rgb(209, 123, 73);
 }
 
-hr{
+.strongLinebreak{
     border-top:2px solid;
-    border-color:#FBC600;
-    width: 50%;
+    border-color:rgba(251, 100, 0, 0.3);
+    width: 70%;
 }
 
 span{

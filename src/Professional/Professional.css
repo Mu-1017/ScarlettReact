@@ -10,16 +10,9 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-
-hr{
-    border-top:1px solid;
-    border-color:rgba(167, 161, 139, 0.281);
-    width: 70%;
-    padding-top: 10px;
-}
-
 p{
     font-family: 'Ubuntu', sans-serif;
     word-wrap: normal;
     text-align: left;
 }
+
