@@ -21,7 +21,7 @@ class ResetRating extends React.Component {
           <Rating {...this.props}
             emptySymbol={<i className="fas fa-medal" style={{color: "#ffe6cc", fontSize: '1.7rem'}}/>}
             fullSymbol={<i className="fas fa-medal" style={{color: "#ffb366", fontSize: '1.7rem'}}/>}
-            onClick={this.handleClick}/>
+            onChange={this.handleClick}/>
         </div>
       );
     }
