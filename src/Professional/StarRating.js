@@ -12,13 +12,15 @@ class ResetRating extends React.Component {
     handleClick(event) {
       this.setState({value: this.props.initialRating});
     }
-  
+
+
     render() {
       return (
+
         <div>
           <Rating {...this.props}
-            emptySymbol='fas fa-medal fa-2x text-white'
-            fullSymbol='fas fa-medal fa-2x text-warning'
+            emptySymbol={<i className="fas fa-medal" style={{color: "#ffe6cc", fontSize: '1.7rem'}}/>}
+            fullSymbol={<i className="fas fa-medal" style={{color: "#ffb366", fontSize: '1.7rem'}}/>}
             onClick={this.handleClick}/>
         </div>
       );
