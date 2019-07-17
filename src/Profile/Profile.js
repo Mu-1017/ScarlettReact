@@ -10,15 +10,16 @@ function Profile() {
     </div>
     <div className="description  col-sm-12 col-md-6 col-lg-6">
         <p>
-          I am Scarlett, a self-taught developer living in Singapore.
+          Hey, I am Scarlett, a self-taught developer living in Singapore.
         </p>
         <p>
-          I have over 8 years experience in software design and development.
+          I have over 8 years experiences working on enterprise applications 
+          including development, infrastructure and production support under Waterfall and Agile environments.
         </p>
+        <p>I'm also passionate in creating amazing UI/UX and cool web applications.</p>
         <p>
-          I appreciate simplicity, structure and order.
+          I love simplicity, I appreciate structure and order. I stand for quality.
         </p>
-        <p>And I also stand for quality.</p>
         </div>
   </div>
     </div>

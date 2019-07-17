@@ -10,7 +10,7 @@ function Professional() {
       <div className="row">
         <div className="skill-col col-sm-12 col-md-6">
           <div className="d-flex justify-content-between">
-          <p>c#</p>
+          <p>C#</p>
           <ResetRating initialRating = {5}/>
           </div>
           <div className="d-flex justify-content-between">

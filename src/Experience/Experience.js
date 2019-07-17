@@ -27,14 +27,14 @@ const careers = [
         company: "ST Electronics",
         duration: "Feb 2012 - May 2012",
         title: "Intern(Software Testing)",
-        desc: "To be updated....",
+        desc: "Analyze requirements for validity and feasibility, collaborate closely with other team members, execute system testing.",
         location: "Singapore"
     },
     {
         company: "Konka Group Co,.Ltd",
-        duration: "Feb 2012 - May 2012",
+        duration: "Mar 2011 - Jun 2011",
         title: "Intern(Software Developer)",
-        desc: "To be updated....",
+        desc: "Developed a bluetooth remote control component for MTK platform mobile phone.",
         location: "Shenzhen, China"
     }];
 
