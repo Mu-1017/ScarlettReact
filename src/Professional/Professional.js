@@ -6,7 +6,7 @@ import './Professional.css';
 
 function Professional() {
   return (
-    <div className="main-div">
+    <div className="main-div container">
       <div className="row">
         <div className="skill-col col-sm-12 col-md-6">
           <div className="d-flex justify-content-between">
