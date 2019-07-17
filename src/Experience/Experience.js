@@ -20,7 +20,8 @@ const careers = [
         company: "ST Electronics",
         duration: "Jan 2013 - June 2017",
         title: "Senior/Software Engineer",
-        desc: "To be updated....",
+        desc: "Design and develop embeded windows applications running on Automatic fare collection system(ticket issuing machine, automatic gate, etc).",
+        desc2:"Provide customer support and operater training.",
         location: "Singapore"
     },
     {
@@ -61,6 +62,7 @@ const careers = [
             <div className="col-sm-8 col-md-6 text-left">
                 <h4>{props.title}</h4>
                 <p>{props.desc}</p>
+                <p>{props.desc2}</p>
                 <p><i className="map-icon fas fa-map-marker-alt fa-lg"></i>{props.location}</p>
             </div>
         </div>
@@ -74,7 +76,7 @@ function Experience() {
                     careers.map(item=>
                     <HistoryRow company={item.company} duration={item.duration} 
                     title={item.title}
-                    desc={item.desc} 
+                    desc={item.desc} desc2={item.desc2}
                     location={item.location}/>
                 )}
             </div>
@@ -86,7 +88,7 @@ function Experience() {
                     educations.map(item=>
                     <HistoryRow company={item.company} duration={item.duration} 
                     title={item.title}
-                    desc={item.desc} 
+                    desc={item.desc} desc2={item.desc2}
                     location={item.location}/>
                 )}
             </div>
