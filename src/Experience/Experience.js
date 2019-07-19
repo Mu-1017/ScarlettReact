@@ -6,14 +6,16 @@ const careers = [
         company: "Sivantos Pte. Ltd.",
         duration: "July 2018 - Current",
         title: "Engineer II",
-        desc: "To be updated....",
+        desc: "Sivantos Group is a leading manufacturer of hearing aids. I am working as a scrum developer for hearing aid fitting software.",
+        desc2:"Besides usual development tasks, I also created an internal training website for new joiners during my probation.",
         location: "Singapore"
     },
     {
         company: "CyberOptics Pte. Ltd",
         duration: "June 2017 - July 2018",
         title: "Software Engineer",
-        desc: "To be updated....",
+        desc: "Worked as scrum developer, perform research and development tasks.",
+        desc2:"Responsible for the quality and on-time delivery of the work-products throughout the software development lifecycle.",
         location: "Singapore"
     },
     {
