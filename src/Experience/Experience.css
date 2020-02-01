@@ -28,3 +28,13 @@ hr{
     width: 70%;
     padding-top: 10px;
   }
+
+.logo{
+    width: 100px;
+    margin-right: 40px;
+  }
+
+  .light{
+    margin-left: 15px;
+    color: rgba(95, 94, 93, 0.781);
+  }
