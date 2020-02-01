@@ -6,7 +6,7 @@ const careers = [
         company: "Sivantos Pte. Ltd.",
         duration: "July 2018 - Current",
         title: "Engineer II",
-        desc: "Sivantos Group is a leading manufacturer of hearing aids. I am working as a scrum developer for hearing aid fitting software.",
+        desc: "Working as a scrum developer for hearing aid fitting software.",
         desc2:"Besides usual development tasks, I also created an internal training website for new joiners during my probation.",
         location: "Singapore"
     },
