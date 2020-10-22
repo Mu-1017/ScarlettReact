@@ -6,7 +6,7 @@ const careers = [
         company: "WS Audiology",
         overview: "Medical Device",
         location: "Singapore",
-        logo: "wsa.png",
+        logo: "WSA.png",
         duration: "October 2019 - Present",
         title: "Senior Engineer",
         desc: "Working as a scrum team architect, responsible for designing architecture/workflow for new features, monitoring code quality, collaborating with other teams for any technical issue, as well as normal development task.",
@@ -76,7 +76,7 @@ const careers = [
                 <hr id="linebreak"/>
                 <div className="row d-flex justify-content-left">
                     <img className="float-left logo img-thumbnail" alt="company logo" 
-                        src={process.env.PUBLIC_URL + 'photo/'+ props.logo}/>
+                        src={process.env.PUBLIC_URL + '/photo/'+ props.logo}/>
                     <div className="text-left">
                         <h3>{props.company}</h3>
                         <div className="row d-flex">
