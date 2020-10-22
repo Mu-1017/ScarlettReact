@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ScarlettReact/precache-manifest.c13d75ec4da833801d59592c283badd2.js"
+  "/ScarlettReact/precache-manifest.3d1462da269dc1072652972ca0679bf1.js"
 );
 
 self.addEventListener('message', (event) => {
