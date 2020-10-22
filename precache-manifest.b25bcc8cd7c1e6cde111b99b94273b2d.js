@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4262a086ecfb885b32deecff02eae73",
+    "revision": "553029fcbe014208d078f837ea147a68",
     "url": "/Scarlett/index.html"
   },
   {
