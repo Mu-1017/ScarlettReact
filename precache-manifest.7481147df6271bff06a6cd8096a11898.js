@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8258f51e91c5f11ea5ca01a866f4de4d",
+    "revision": "02b9fe3d49f488a9afc0c8752b190857",
     "url": "/ScarlettReact/index.html"
   },
   {
-    "revision": "25f104512441de3c199e",
+    "revision": "0ae38487a892ab8a1a6e",
     "url": "/ScarlettReact/static/css/main.02e4ab72.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ScarlettReact/static/js/2.229e5af2.chunk.js"
   },
   {
-    "revision": "25f104512441de3c199e",
-    "url": "/ScarlettReact/static/js/main.de1ac2fb.chunk.js"
+    "revision": "0ae38487a892ab8a1a6e",
+    "url": "/ScarlettReact/static/js/main.acb6f06d.chunk.js"
   },
   {
     "revision": "c499a1409fe05ea31cf8",
